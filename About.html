@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title >MDB pokémon</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">  
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <style type="text/css">
+        .intro-2 {
+            background: url("img/home.jpg")no-repeat center center;
+            background-size: cover;
+        }
+        .navbar {
+		    background-color: transparent;
+		}
+		.top-nav-collapse {
+		    background-color: black;
+		}
+		@media only screen and (max-width: 768px) {
+		    .navbar {
+		        background-color: black;
+		    }
+		}
+		@media only screen and (max-width: 640px)  {
+			.hidden-mobile{
+			display: none;
+			}
+		}
+		.fixed-left{
+			top: 200px;
+			position: fixed;
+			left:0;
+			z-index:1030
+		}
+    </style>
+    
+</head>
+
+<body  style="background: url(img/59.jpg);">
+	<!--
+    	作者：249587336@qq.com
+    	时间：2018-06-12
+    	描述：导航栏
+    -->
+    <header class="">
+	    	<!--Navbar-->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar ">
+		    <!-- Navbar brand -->
+		    <a class="navbar-brand" href="#"><strong>神奇宝贝</strong></a>
+		    <!-- Collapse button -->
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <!-- Collapsible content -->
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		        <!-- Links -->
+		        <ul class="navbar-nav mr-auto">
+		            <li class="nav-item">
+		            		<a class="nav-link" href="index.html">首页<span class="sr-only">(current)</span></a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="Pokedex.html">图鉴</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="2048.html">玩小游戏</a>
+		            </li>
+		            <li class="nav-item">
+		                <a class="nav-link" href="login.html">登录</a>
+		            </li>
+					<li class="nav-item">
+		                <a class="nav-link" href="About.html">关于</a>
+		            </li>
+		            <!-- Dropdown -->
+		            <li class="nav-item dropdown">
+		                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">活动选项</a>
+		                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+		                    <a class="dropdown-item" href="#">活动</a>
+		                    <a class="dropdown-item" href="#">其他活动</a>
+		                    <a class="dropdown-item" href="#">其它</a>
+		                </div>
+		            </li>		
+		        </ul>
+		        <!-- Links -->	
+		        <form class="form-inline">
+		            <div class="md-form my-0">
+		                <input class="form-control mr-sm-2" type="text" placeholder="搜索" aria-label="Search">
+		            </div>
+		        </form>
+		    </div>
+		    <!-- Collapsible content -->
+		</nav>
+		<!--/.Navbar-->
+	    <div class="view intro-2">
+	        <div class="full-bg-img">
+	            <div class="mask rgba-black-strong flex-center">
+	                <div class="container">
+	                    <div class="white-text text-center wow fadeInUp">
+	                        <h1>精灵宝可梦世代</h1>
+	                        <p>欢迎来到宠物小精灵世界</p>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+    </header>
+    <!--Main Layout-->
+    <!--
+    	作者：249587336@qq.com
+    	时间：2018-06-12
+    	描述：手风琴样式——左侧导航栏
+    -->
+    <div id="accordion" class="fixed-left hidden-mobile" style="width: 60px;">
+	    <div class="card grey">
+	      <div class="card-header">
+	        <a href="#" >
+	          登录
+	        </a>
+	      </div>
+	    </div>
+	    <div class="card grey">
+	      <div class="card-header">
+	        <a href="signup.html">
+	        加入我们
+	      </a>
+	      </div>
+	    </div>
+	    <div class="card grey">
+	      <div class="card-header">
+	        <a  href="#">
+	          建议
+	        </a>
+	      </div>
+	    </div>
+	  </div>
+    <!--Guide-->
+    <!--
+    	作者：249587336@qq.com
+    	时间：2018-06-15
+    	描述：下拉式式选项卡
+    -->
+    <div class="container">
+    		<div class="row white">
+    			<div class="col-lg-3">
+    				<!-- Basic dropdown -->
+				<div class="btn-group show">
+				    <button class="btn btn-primary dropdown-toggle dp" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">关于神奇宝贝</button>
+				    <div class="dropdown-menu" >
+				        <a class="dropdown-item" href="About.html">关于神奇宝贝</a>
+				        <a class="dropdown-item" href="Guide.html">指南</a>
+				        <a class="dropdown-item" href="#">客服</a>
+				        <div class="dropdown-divider"></div>
+				        <a class="dropdown-item" href="#">关于我们的公司</a>
+				    </div>
+				</div>
+    			</div>
+    			<div class="col-sm-12 col-lg-9">
+    				<h1><strong>关于神奇宝贝国际公司</strong></h1>
+    				<p class="p-5">神奇宝贝公司在日本的子公司神奇宝贝公司管理着亚洲以外的地产，负责品牌管理，授权，营销，神奇宝贝交易卡游戏，动画电视连续剧，家庭娱乐和官方神奇宝贝网站。神奇宝贝于1996年在日本推出，如今是全球最受欢迎的儿童娱乐场所之一。</p>
+    			</div>
+    		</div>
+    </div>
+    <!--
+    	作者：249587336@qq.com
+    	时间：2018-06-11
+    	描述：页脚
+    -->
+    <!-- Footer -->
+	<footer class="page-footer font-small black pt-4 mt-4">
+	  <!-- Footer Links -->
+	  <div class="container-fluid text-center text-md-left">
+	    <!-- Grid row -->
+	    <div class="row">
+	      <!-- Grid column -->
+	      <div class="col-md-6 mt-md-0 mt-3">
+	        <!-- Content -->
+	        <h5 class="text-uppercase">Pokémon 公司</h5>
+	        <p>在这里可以找到属于你的神奇宝贝</p>
+	      </div>
+	      <!-- Grid column -->	
+	      <hr class="clearfix d-md-none pb-3">
+	      <!-- Grid column -->
+	      <div class="col-md-6 mb-md-0 mb-3 hidden-mobile">
+	        <!-- Links -->
+	        <h5 class="text-uppercase">链接</h5>
+	        <ul class="list-unstyled">
+	          <li>
+	            <a href="#!">神奇宝贝指南</a>
+	          </li>
+	          <li>
+	            <a href="#!">联系我们</a>
+	          </li>
+	          <li>
+	            <a href="#!">客户服务</a>
+	          </li>
+	          <li>
+	            <a href="#!">关于我们的公司</a>
+	          </li>
+	        </ul>
+	      </div>
+	      <!-- Grid column -->
+	    </div>
+	    <!-- Grid row -->
+	  </div>
+	  <!-- Footer Links -->
+	  <!-- Copyright -->
+	  <div class="footer-copyright text-center py-3">© 2018 神奇宝贝:
+	    <a href="#"> TM，®任天堂。</a>
+	  </div>
+	  <!-- Copyright -->
+	</footer>
+	<!-- Footer -->
+	
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript">
+//  	$(document).ready(function(){
+//  		$('.dropdown-item').click(function(){
+//  			var text = $('.dropdown-item').text();
+//  			$('.dp').context(text);
+//  		})
+//  	})
+    </script>
+</body>
+
+</html>

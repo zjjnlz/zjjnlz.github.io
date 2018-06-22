@@ -1,0 +1,81 @@
+header{
+	display: block;
+	margin: 0 auto; /*居 中显示*/
+	width: 100%;
+	text-align: center;/*文本居中显示*/
+}
+header h1{
+	
+	position: relative;
+	font-family: arial;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0;
+}
+header #newgamebutton{
+	display: block;
+	margin: 10px auto;
+	
+	width: 100px;
+	padding: 10px 10px;
+	
+	font-family: arial;
+	color: white;
+	
+	border-radius: 10px;
+	text-decoration: none;
+}
+/*鼠标悬浮在按钮上产生一定的*/
+header #newgamebutton:hover{
+	background-color: #9f8b77;
+}
+header p{
+	font-family: arial;
+	font-size: 25px;
+	margin: 20px auto;
+}
+#gridContainer{
+	width: 580px;
+	height: 580px;
+	padding: 20px;
+	
+	margin: 50px auto;
+	border-radius: 20px;
+	position: relative;
+}
+.grid-cell{
+	width: 100px;
+	height: 100px;
+	border-radius: 30px;
+	background-color: darkorange ;
+	opacity: 0.9;
+	position: absolute;
+}
+.number-cell{
+	border-radius: 10px;
+	/*数字的样式*/
+	font-family: arial;
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 100px;
+	text-align: center;
+	background-size: 100%;
+	position: absolute;
+	
+}
+#returnButton{
+	display: block;
+	margin: 10px auto;
+	
+	width: 100px;
+	padding: 10px 10px;
+	
+	font-family: arial;
+	color: white;
+	
+	border-radius: 10px;
+	text-decoration: none;
+	font-family: arial;
+	text-align: center;
+	font-size: 100%;
+}

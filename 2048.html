@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Pokémon2048</title>
+		<link rel="stylesheet" type="text/css" href="css/2048.css"/>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">  
+    		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    		<!-- Font Awesome -->
+    		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    		<!-- Bootstrap core CSS -->
+	    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+	    <!-- Material Design Bootstrap -->
+	    <link href="css/mdb.min.css" rel="stylesheet">
+	    <!-- Your custom styles (optional) -->
+	    <link hrsef="css/style.css" rel="stylesheet">
+    		
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/support2048.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/showanimation.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/main2048.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			body{
+				background-image: url(img/home.jpg) ;
+			}
+		</style>
+		
+	</head>
+	<body>
+	
+		
+		
+		<!--
+        	作者：249587336@qq.com
+        	时间：2018-05-24
+        	描述：标题——new game和score
+        -->
+		<header>
+			<h1 ><strong class="z-depth-1-half">Pokémon2048</strong></h1>
+			<a href="javascript:newgame()" id="newgamebutton"  class="blue darken-3 z-depth-1 btn btn-primary">New Game</a>
+			<p style="margin: 0;">score:<span id="score">0</span></p>
+		</header>
+		<!--
+        	作者：249587336@qq.com
+        	时间：2018-05-24
+        	描述：5*5的棋盘
+        -->
+		<div id="gridContainer" style="margin-top: 0;margin-bottom: 0;" class="z-depth-2">
+			<div class="grid-cell z-depth-2" id="grid-cell-0-0"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-0-1"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-0-2"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-0-3"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-0-4"></div>
+			
+			<div class="grid-cell z-depth-2" id="grid-cell-1-0"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-1-1"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-1-2"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-1-3"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-1-4"></div>
+			
+			<div class="grid-cell z-depth-2" id="grid-cell-2-0"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-2-1"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-2-2"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-2-3"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-2-4"></div>
+			
+			<div class="grid-cell z-depth-2" id="grid-cell-3-0"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-3-1"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-3-2"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-3-3"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-3-4"></div>
+			
+			<div class="grid-cell z-depth-2" id="grid-cell-4-0"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-4-1"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-4-2"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-4-3"></div>
+			<div class="grid-cell z-depth-2" id="grid-cell-4-4"></div>
+		</div>
+		<a  href="index.html" id="returnButton" class="btn btn-primary btn-purple">返回首页</a>
+		
+	</body>
+</html>
