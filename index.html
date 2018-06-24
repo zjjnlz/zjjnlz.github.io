@@ -20,12 +20,19 @@
         .intro-2 {
             background: url("img/home.jpg")no-repeat center center;
             background-size: cover;
-            /*width: 1140px;
-            left: 10.5%;
-            right: 10.5%;*/
+            margin-right: auto;
+		    margin-left: auto;
+		    width: 100%;
+		    max-width: 1140px;
         }
         .navbar {
 		    background-color: transparent;
+		    margin-right: auto;
+		    margin-left: auto;
+		    padding-right: 15px;
+		    padding-left: 15px;
+		    width: 100%;
+		    max-width: 1140px;
 		}
 		.top-nav-collapse {
 		    background-color: black;
@@ -34,25 +41,17 @@
 		    .navbar {
 		        background-color: black;
 		    }
-		    /*.intro-2{
-		    		width: 100%;
-		    		left: 0;
-		    }*/
 		}
 		@media only screen and (max-width: 640px)  {
 			.hidden-mobile{
 			display: none;
 			}
-			/*.intro-2{
-		    		width: 100%;
-		    		left: 0;
-		    }*/
 		}
 		.fixed-left{
 			top: 200px;
 			position: fixed;
 			left:0;
-			z-index:1030
+			z-index: 5;
 		}
     </style>
     
@@ -359,7 +358,7 @@
     	描述：页脚
     -->
     <!-- Footer -->
-	<footer class="page-footer font-small black pt-4 mt-4" style="height: 20%;">
+	<footer class="page-footer font-small black pt-4 mt-4 container" >
 	  <!-- Footer Links -->
 	  <div class="container-fluid text-center text-md-left">
 	    <!-- Grid row -->

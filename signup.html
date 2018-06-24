@@ -17,12 +17,22 @@
     <!-- Your custom styles (optional) -->
     <link href="css/style.css" rel="stylesheet">
     <style type="text/css">
-        .intro-2 {
+         .intro-2 {
             background: url("img/home.jpg")no-repeat center center;
             background-size: cover;
+            margin-right: auto;
+		    margin-left: auto;
+		    width: 100%;
+		    max-width: 1140px;
         }
         .navbar {
 		    background-color: transparent;
+		    margin-right: auto;
+		    margin-left: auto;
+		    padding-right: 15px;
+		    padding-left: 15px;
+		    width: 100%;
+		    max-width: 1140px;
 		}
 		.top-nav-collapse {
 		    background-color: black;
@@ -41,7 +51,7 @@
 			top: 200px;
 			position: fixed;
 			left:0;
-			z-index:1030
+			z-index: 5;
 		}
 		.mg15{
 			margin-top: 15px;
@@ -187,7 +197,7 @@
 	      				</div>
 	      				<div>
 	      					<label>国家</label>
-	      					<select class="mdb-select colorful-select dropdown-primary" searchable="Search here..">
+	      					<select class="colorful-select dropdown-primary" searchable="Search here..">
 							    <option value="" disabled selected>选择你的国家</option>
 							    <option value="1">USA</option>
 							    <option value="2">Germany</option>
@@ -210,7 +220,7 @@
 	      		<div class=" col-md-2 col-lg-2"></div>
 	      		<div class="col-sm-12 col-md-8 col-lg-8">
 	      			<div class="row mg">
-	      				<div class="col-lg-8">
+	      				<div class="col-sm-8 col-md-8 col-lg-8">
 		      				<!-- Material form register -->
 							<form>
 							    <!-- Material input text -->
@@ -257,7 +267,7 @@
 								<p style="color: white;">如果您已有帐户，请立即<a href="login.html" class="h4" style="color: deepskyblue;">登录</a>。</p>
 							</div>
 		      			</div>
-		      			<div class="col-md-4 col-lg-4 amber darken-2 hidden-mobile">
+		      			<div class="col-sm-4 col-md-4 col-lg-4 amber darken-2 hidden-mobile">
 		      				<img src="img/signup.png"/>
 		      			</div>
 	      			</div>
@@ -272,7 +282,7 @@
     	描述：页脚
     -->
     <!-- Footer -->
-	<footer class="page-footer font-small black pt-4 mt-4">
+	<footer class="page-footer font-small black pt-4 mt-4 container">
 	  <!-- Footer Links -->
 	  <div class="container-fluid text-center text-md-left">
 	    <!-- Grid row -->
@@ -326,12 +336,12 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
     	// Material Select Initialization
 	$(document).ready(function() {
 	    $('.mdb-select').material_select();
 	});
-    </script>
+    </script>-->
 </body>
 
 </html>
